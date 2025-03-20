@@ -1,2 +1,3 @@
-![Alt text](Project-1/images/Screenshot (2978).png)
+
+![img](https://github.com/MANTU-IITP/Basic-Projects/blob/main/Screenshot%20(2978).png)
 

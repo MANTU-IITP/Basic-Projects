@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-size: 62.5%;
+}
+html,body{
+    font-family: "Inter",sans-serif;
+    font-weight: 300px;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}body{
+    font-size: 1.4rem;
+}
+header{
+    position: sticky;
+    top:0;
+    background: #fff;
+}
+
+nav{
+    display: flex;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+   
+   
+    justify-content: space-between;
+   
+   
+}
+nav ul{
+    display: flex;
+    gap:2rem;
+    align-items: center;
+}
+nav ul li{
+    font-size: 1.8rem;
+    list-style: none;
+}
+nav ul li:hover{
+    border-bottom: 2px solid yellow;
+}
+nav i{
+    font-size: 2.5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.status-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 1rem;
+    align-items: center;
+    
+}
+.status-text h1{
+    font-size: 50px;
+
+}
+.status-text h2{
+    font-weight: 300;
+}
+.status-img,#simg{
+    border-radius: 5% ;
+}
+.h-container{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+   justify-content: space-between;
+   
+    
+     box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+    align-items: center;
+    border: 1px solid #e2e2e2;
+     border-radius: 0.5rem;
+    overflow: hidden;
+}
+.h-container .text{
+    padding-left: 20px;
+    line-height: 25px;
+}
+.text .date{
+    display: flex;
+    justify-content: space-between;
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 90px;
+    margin-right: 50px;
+    margin-top: 40px;
+   
+}
+.card-container ,card{
+    width: 320px;
+    height: 382px;
+    border-radius: 10px;
+    gap: 80px;
+    border: 1px solid #e2e2e2;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+}
+.card .date{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.big-container{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+    border: 1px solid #e2e2e2;
+    margin-top: 30px;
+    padding-left: 20px;
+
+}
+.big-text .date{
+    display: flex;
+    justify-content: space-between;
+
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+   
+}
+  .icons ul{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+.footer-text p{
+    font-size: 15px;
+}
+.icons ul li{
+    list-style: none;
+}
